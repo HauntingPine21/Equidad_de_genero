@@ -129,3 +129,110 @@ h2{
 p{
     text-align: justify;
 }
+
+
+/* --- Responsividad para pantallas pequeñas (celulares) --- */
+@media (max-width: 768px) {
+    /* Ajustar el menú lateral */
+    .aside {
+        position: fixed; /* Fija la barra lateral en la parte superior */
+        top: 0;
+        left: 0;
+        z-index: 1000; /* Asegura que quede sobre el contenido */
+        width: 100%; /* Ocupa todo el ancho */
+        height: auto; /* Ajusta la altura según el contenido */
+    }
+
+    .aside.active {
+        width: 70px; /* Modo compacto con menor ancho */
+        height: 100vh; /* Ocupa toda la altura en modo activo */
+    }
+
+    .head {
+        flex-direction: column; /* Reorganiza los elementos verticalmente */
+        align-items: center;
+    }
+
+    .head i {
+        margin-top: 10px; /* Añade espacio para separación */
+    }
+
+    /* Ajustar opciones del menú */
+    .options div {
+        flex-direction: column; /* Opciones en columna */
+        text-align: center; /* Centra el contenido */
+    }
+
+    .options img {
+        margin: 0 auto 5px; /* Íconos centrados */
+    }
+
+    .options a {
+        font-size: 1rem; /* Ajustar el tamaño del texto */
+    }
+
+    /* Ajustar el contenido principal */
+    body {
+        margin-top: 60px; /* Deja espacio para la barra lateral */
+        padding-left: 80px; /* Separa el contenido del lado izquierdo */
+    }
+
+    /* Imagen principal */
+    .imagenprin img {
+        width: 90%; /* Reduce el tamaño al 90% del ancho de la pantalla */
+        height: auto; /* Mantiene las proporciones */
+        margin: 10px auto; /* Centra la imagen */
+    }
+
+    /* Encabezados */
+    h1 {
+        font-size: 1.8rem; /* Reduce el tamaño del texto */
+        padding: 10px; /* Reduce el espacio interno */
+        text-align: left; /* Alinea el texto a la izquierda */
+        margin-top: -10px; /* Levanta el título más hacia arriba */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Reduce el tamaño del texto */
+        margin: 10px 0;
+    }
+
+    /* Cajas de contenido */
+    .caja_contenido {
+        margin: 10px 20px; /* Reduce márgenes laterales */
+        padding: 20px; /* Reduce el relleno interno */
+        font-size: 0.9rem; /* Ajusta el tamaño de fuente */
+    }
+
+    /* Ajustar párrafos */
+    p {
+        font-size: 1rem; /* Tamaño de fuente más pequeño */
+        line-height: 1.6; /* Espaciado entre líneas */
+    }
+}
+
+/* --- Responsividad para pantallas muy pequeñas (menores a 480px) --- */
+@media (max-width: 480px) {
+    /* Opciones del menú */
+    .options div span a {
+        font-size: 0.9rem; /* Texto más pequeño */
+    }
+
+    /* Encabezados */
+    h1 {
+        font-size: 1.5rem; /* Ajusta el tamaño */
+        margin-top: -50px; /* Levanta aún más el título */
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Cajas de contenido */
+    .caja_contenido {
+        font-size: 0.8rem; /* Ajusta el tamaño de la fuente */
+        padding: 15px;
+        margin-left: 10px; /* Mueve las cajas ligeramente a la derecha */
+    }
+}
+
