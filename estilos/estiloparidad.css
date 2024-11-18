@@ -181,14 +181,17 @@ body {
         left: 0;
         z-index: 1000; /* Asegura que quede sobre el contenido */
         width: 100%; /* Ocupa todo el ancho */
-        height: auto; /* Ajusta la altura según el contenido */
+        height: 200vh; /* Ajusta la altura según el contenido */
     }
 
     .aside.active {
         width: 70px; /* Modo compacto con menor ancho */
-        height: 100vh; /* Ocupa toda la altura en modo activo */
+        height: 200vh; /* Ocupa toda la altura en modo activo */
     }
-
+    
+    .texto_pie_de_pagina{
+        padding-left: 60px;
+    }
     
 }
 
