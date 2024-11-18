@@ -221,7 +221,7 @@ p{
     /* Encabezados */
     h1 {
         font-size: 1.5rem; /* Ajusta el tamaño */
-        margin-top: -50px; /* Levanta aún más el título */
+        margin-top: -px; /* Levanta aún más el título */
     }
 
     h2 {

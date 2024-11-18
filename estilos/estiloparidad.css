@@ -126,6 +126,7 @@ body {
 .subtitulo {
     font-size: 1em;
     color: #FFFFFF;
+    
 }
 
 
@@ -140,6 +141,7 @@ body {
 
     .titulo_principal {
         font-size: 2em;
+        margin-left: 60px;
     }
 
     .titulo_seccion,
@@ -161,4 +163,27 @@ body {
         grid-column: span 1;
         margin: 0 auto;
     }
+
+    .subtitulo{
+        margin-left: 60px;
+    }
+
+    .aside {
+        position: fixed; /* Fija la barra lateral en la parte superior */
+        top: 0;
+        left: 0;
+        z-index: 1000; /* Asegura que quede sobre el contenido */
+        width: 100%; /* Ocupa todo el ancho */
+        height: 200vh; /* Ajusta la altura según el contenido */
+    }
+
+    .aside.active {
+        width: 70px; /* Modo compacto con menor ancho */
+        height: 200vh; /* Ocupa toda la altura en modo activo */
+    }
+
+    
 }
+
+
+
