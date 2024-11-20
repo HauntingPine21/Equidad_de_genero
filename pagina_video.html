@@ -3,14 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagenes/icono.ico" type="image/x-icon">
     <title>Nuestro video</title>
     <link rel="stylesheet" href="estilos/estilovideo.css">
+    <link rel="stylesheet" href="estilos/lateral.css">
 </head>
-<body class="body">
+
+<aside class="aside active" id="aside">
+    <div class="head">
+        <div class="profile">
+            <img src="imagenes/equidad.jpg">
+            <p>Equidad</p>
+        </div>
+            <i class='bx bx-menu' id="menu"></i>  
+    </div>
+    <div class="options">
+
+    <a href="paridad_de_genero.html">
+        <div>
+            <img src="imagenes/paridadicon.png">
+            <span class="option">Paridad de genero</span>
+        </div>
+    </a>
+
+    <a href="roles_y_estereotipos.html">
+        <div>
+            <img src="imagenes/estereoicon.png">
+            <span class="option">Roles y estereotipos</span>
+        </div>
+    </a>
+
+    <a href="movimientos_y_politicas.html">
+        <div>
+            <img src="imagenes/poliymovicon.png">
+            <span class="option">Movimientos y politicas</span>
+        </div>
+    </a>
+
+    <a href="Equidad_en_la_educacion.html">
+        <div>
+            <img src="imagenes/equieduicon.png">
+            <span class="option">Equidad en la educación</span>
+        </div>
+    </a>
+
+    <a href="instituciones.html">
+        <div>
+            <img src="imagenes/institucion.png">
+            <span class="option">Instituciones que defienden la equidad</span>
+        </div>
+    </a>
+
+    <a onclick="window.history.back(-1);">
+            <div>
+                <i class='bx bx-arrow-back'></i>
+                <span class="option">Regresar</span>
+            </div>
+        </a>
+
+    <a href="index.html">
+        <div>
+            <i class='bx bx-home-alt'></i>
+            <span class="option">Inicio</span>
+        </div>
+    </a>
+
+
+
+    </div>
+</aside>
+<script src="menu.js"></script>
+<body class="body mover">
     <header class="encabezado">
         <h1 class="titulo_principal">Nuestro video</h1>
         <p class="subtitulo">"Por una sociedad libre y equitativa sin estereotipos"</p>
     </header>
+
+    
+
     <main class="contenido_principal">
         <div class="caja_contenido">
             <h2 class="titulo_seccion">Introducción al video</h2>
@@ -26,9 +101,36 @@
             </div>
         </div>
         <div class="caja_contenido">
-            <h2 class="titulo_seccion">"Equidad Sin Barreras"</h2>
-            <div class="imagen_principal"></div>
-            <iframe src="https://drive.google.com/file/d/1_1rrtSfV_zE_oZvIndAVpyfDYXCXKk81/preview" width="1080" height="720" allow="autoplay"></iframe>
+            <h2 class="titulo_seccion_video">"Equidad Sin Barreras 1 BLOQUE"</h2>
+            <iframe class="video" src="https://drive.google.com/file/d/1_1rrtSfV_zE_oZvIndAVpyfDYXCXKk81/preview" width="640" height="480" allow="autoplay"></iframe>
+        </div>
+        <div class="caja_contenido">
+            <h2 class="titulo_seccion_video">"Equidad Sin Barreras 2 BLOQUE"</h2>
+            <iframe src="" frameborder="0" class="video"></iframe>
+        </div>
+        <div class="caja_contenido">
+            <h2 class="titulo_seccion">Reparto del video</h2>
+            <p class="texto">
+                Abraham Orozco:Director del video<br>
+                Julian Pacheco:Produccion<br>
+                Héctor Ruiz:Actor<br>
+                Alondra Alvarado:Actor<br>
+                Gilberto Sanchez:Produccion<br>
+                Helen Zatarain:Actor<br>
+                Mauricio Allende:Actor<br>
+                Sara Bañuelos:Actor<br>
+                Andrea Carrillo:Actor<br>
+                Nevares Paez:Actor<br>
+                Diego Ochoa:Produccion<br>
+                Cristerna Said:Actor<br>
+                Ahmed Morales:Protagonista<br>
+                Luis Vargas:Produccion<br>
+                <span class="texto_destacado_purpura">NOTA: ME DIJO ANGEL QUE SOLO FALTAN DOS PERSONAS EN EL REPARTO PARA QUE NO PIENSES QUE YA ESTA TERMINADO, YA SOLO QUEDARIA ESO Y AGG LOS VIDEOS, AH Y POS BORRA ESTO JAJA</span>
+            </p>
+        </div>
+        <div class="caja_contenido">
+            <h2 class="titulo_seccion_video">"Bloopers"</h2>
+            <iframe src="" frameborder="0" class="video"></iframe>
         </div>
         <div class="caja_contenido">
             <h2 class="titulo_seccion">Conclusión del video</h2>

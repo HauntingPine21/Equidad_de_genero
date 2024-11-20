@@ -1,0 +1,82 @@
+<aside class="aside active" id="aside">
+    <div class="head">
+        <div class="profile">
+            <img src="imagenes/equidad.jpg">
+            <p>Equidad</p>
+        </div>
+            <i class='bx bx-menu' id="menu"></i>  
+    </div>
+    <div class="options">
+
+    <a href="paridad_de_genero.html">
+        <div>
+            <img src="imagenes/paridadicon.png">
+            <span class="option">Paridad de genero</span>
+        </div>
+    </a>
+
+    <a href="roles_y_estereotipos.html">
+        <div>
+            <img src="imagenes/estereoicon.png">
+            <span class="option">Roles y estereotipos</span>
+        </div>
+    </a>
+
+    <a href="movimientos_y_politicas.html">
+        <div>
+            <img src="imagenes/poliymovicon.png">
+            <span class="option">Movimientos y politicas</span>
+        </div>
+    </a>
+
+    <a href="Equidad_en_la_educacion.html">
+        <div>
+            <img src="imagenes/equieduicon.png">
+            <span class="option">Equidad en la educación</span>
+        </div>
+    </a>
+
+    <a href="instituciones.html">
+        <div>
+            <img src="imagenes/institucion.png">
+            <span class="option">Instituciones que defienden la equidad</span>
+        </div>
+    </a>
+
+    <a href="pagina_video.html">
+        <div>
+            <img src="imagenes/videoicon.jpg">
+            <span class="option">Video representativo</span>
+        </div>
+    </a>
+
+    <a onclick="window.history.back(-1);">
+            <div>
+                <i class='bx bx-arrow-back'></i>
+                <span class="option">Regresar</span>
+            </div>
+        </a>
+
+    <a href="index.html">
+        <div>
+            <i class='bx bx-home-alt'></i>
+            <span class="option">Inicio</span>
+        </div>
+    </a>
+
+
+
+    </div>
+</aside>
+<script src="menu.js"></script>
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="imagenes/icono.ico" type="image/x-icon">
+

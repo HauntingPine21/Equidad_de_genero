@@ -1,0 +1,180 @@
+/*Paleta de colores:
+    Morado: #6A1B9A
+    Rosa claro: #FF4081
+    Azul suave: #8E24AA
+    Gris claro: #F4F4F4
+    Blanco: #FFFFFF
+    Gris oscuro: #333333
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.encabezado{
+    background-color: #ad70d3;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.encabezado h1{
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+
+.encabezado p{
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.contenido-info{
+    display: flex;
+    width: 90%;
+    height: fit-content;
+    justify-content: center;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.movi-h2{
+    color: #6A1B9A;
+    font-size: 3.5vh;
+}
+.movi-p{
+    font-size: 2.9vh;
+    text-align: left;
+}
+.contenido-info img{
+    border-radius: 10px;
+    width: 100vh;
+    height: 50vh;
+    margin-left: 25px;
+}
+.caracteristicas-info{
+    width: 90%;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.objetivos{
+    width: 90%;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.historia{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px; 
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.historia img{
+    border-radius: 10px;
+    width: 60vh;
+    margin-left: 25px;
+}
+.caracteristicas-femi{
+    width: 90%;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.politicas{
+    width: 90%;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.ejem-poli{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px; 
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.ejem-poli img{
+    border-radius: 10px;
+    margin-right: 25px;
+    width: 70vh;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.desafios{
+    width: 90%;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.enlaces{
+    width: 90%;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.organizaciones{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    border-left: 5px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 45px; 
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.organizaciones img{
+    width: 90vh;
+}
