@@ -113,6 +113,10 @@ body {
 
 @media (max-width: 768px) {
     /* Ajustar el menú lateral */
+    .principal{
+        margin-left: 55px;
+    }
+
     .aside {
         position: fixed; /* Fija la barra lateral en la parte superior */
         top: 0;
@@ -150,7 +154,6 @@ body {
         font-size: 1rem; /* Ajustar el tamaño del texto */
     }
 
- 
 
     /* Imagen principal */
     .imagenprin img {
@@ -180,4 +183,7 @@ body {
         padding-left: 60px;
     }
 
+    .titulo_seccion{
+        text-align: center;
+    }
 }

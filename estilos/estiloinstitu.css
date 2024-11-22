@@ -117,3 +117,78 @@ body {
 .contacto{
     color: #ad70d3;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    .contenedor_texto_imagen {
+        grid-template-columns: 1fr;
+    }
+
+    .titulo_principal {
+        font-size: 2em;
+        margin-left: 60px;
+    }
+    .head i {
+        margin-top: 10px; /* Añade espacio para separación */
+    }
+    .head {
+        flex-direction: column; /* Reorganiza los elementos verticalmente */
+        align-items: initial;
+    }
+
+    .titulo_seccion,
+    .texto,
+    .pie_de_pagina {
+        font-size: 0.9em;
+    }
+
+    .imagen1 {
+        max-width: 65%;
+        height: auto;
+        grid-column: span 1;
+        margin: 0 auto;
+    }
+
+    .imagen2 {
+        max-width: 50%;
+        height: auto;
+        grid-column: span 1;
+        margin: 0 auto;
+    }
+
+    .subtitulo{
+        margin-left: 60px;
+    }
+
+    .aside {
+        position: fixed; /* Fija la barra lateral en la parte superior */
+        top: 0;
+        left: 0;
+        z-index: 1000; /* Asegura que quede sobre el contenido */
+        width: 100%; /* Ocupa todo el ancho */
+        height: 200vh; /* Ajusta la altura según el contenido */
+    }
+
+    .aside.active {
+        width: 70px; /* Modo compacto con menor ancho */
+        height: 200vh; /* Ocupa toda la altura en modo activo */
+    }
+    
+    .texto_pie_de_pagina{
+        padding-left: 60px;
+    }
+    
+    .caja_contenido{
+        width: auto;
+        margin-left: -20px;
+    }
+
+    .titulo_seccion{
+        font-size: 20px;
+        text-align: center;
+        margin-left: -20px;
+    }
+}

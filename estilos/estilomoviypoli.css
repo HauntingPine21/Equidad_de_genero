@@ -178,3 +178,110 @@ main{
 .organizaciones img{
     width: 90vh;
 }
+
+
+/* Estilo responsivo */
+@media (max-width: 1024px) {
+    .contenido-info img, .historia img, .ejem-poli img {
+        width: 80vh;
+        height: auto;
+        margin-left: 15px;
+    }
+    .encabezado h1 {
+        font-size: 2em;
+    }
+    .encabezado p {
+        font-size: 1.2em;
+    }
+    .movi-h2 {
+        font-size: 3vh;
+    }
+    .movi-p {
+        font-size: 2.5vh;
+    }
+    main {
+        padding: 15px;
+    }
+    .organizaciones img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .encabezado h1{
+        margin-left: 70px;
+    }
+    .sub{
+        margin-left: 75px;
+    }
+    .contenido-info, .historia, .caracteristicas-info, .politicas, .desafios, .organizaciones, .objetivos, .caracteristicas-femi, .enlaces, .ejem-poli {
+        margin-left: -80px;
+        width: 80%;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .aside{
+        height: 200vh;
+    }
+    .aside.active{
+        height: 200vh;
+    }
+    .contenido-info img, .historia img, .ejem-poli img {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .historia {
+        flex-direction: column;
+    }
+    .movi-h2 {
+        font-size: 2.8vh;
+    }
+    .movi-p {
+        font-size: 2.3vh;
+    }
+    .organizaciones img {
+        width: 90%;
+        height: auto;
+        margin: 15px auto;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado h1 {
+        font-size: 1.8em;
+    }
+    .encabezado p {
+        font-size: 1em;
+    }
+    .contenido-info, .historia, .ejem-poli {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenido-info img, .historia img, .ejem-poli img {
+        width: 90%;
+        margin: 0 auto 20px;
+        height: auto;
+    }
+    .movi-h2 {
+        font-size: 2.5vh;
+    }
+    .movi-p {
+        font-size: 2vh;
+    }
+    main {
+        padding: 10px;
+        gap: 15px;
+        margin-left: 80px;
+    }
+    .organizaciones img {
+        width: 95%;
+        height: auto;
+        margin: 10px auto;
+    }
+}
+

@@ -193,6 +193,10 @@ body {
         padding-left: 60px;
     }
     
+    .caja_contenido{
+        width: auto;
+        margin-left: -20px;
+    }
 }
 
 
